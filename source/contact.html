@@ -1,0 +1,67 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm',{"contact":"active"})
+
+<!-- @@include('blocks/page-title.htm', { "page-name": "Contact Us", "title": "Get in Touch" }) -->
+
+<!-- contact form start -->
+<section class="contact-form-wrap section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<form id="contact-form" class="contact__form" method="post" action="index.html">
+					<h3 class="text-md mb-4">Contact Form</h3>
+					<div class="form-group">
+						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+					</div>
+					<div class="form-group">
+						<input name="email" type="email" class="form-control" placeholder="Email Address" required>
+					</div>
+					<div class="form-group-2 mb-4">
+						<textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+					</div>
+					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
+				</form>
+			</div>
+
+			<div class="col-lg-5 col-sm-12">
+				<div class="contact-content pl-lg-5 mt-5 mt-lg-0">
+					<span class="text-muted">We are here for you</span>
+					<h2 class="mb-5 mt-2">Connect with us to know how can we help you grow</h2>
+
+					<ul class="address-block list-unstyled">
+						<li>
+							<i class="ti-direction mr-3"></i>Noida, UP
+						</li>
+						<li>
+							<i class="ti-email mr-3"></i>Email: support@Illumillion.com
+						</li>
+						<li>
+							<i class="ti-mobile mr-3"></i>Phone:+91 9672920043
+						</li>
+					</ul>
+
+					<ul class="social-icons list-inline mt-5">
+						<li class="list-inline-item">
+							<a href="http://www.instagram.com/Illumillion_agency"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="http://www.twitter.com/Illumillion_ad"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="http://www.pinterest.com/Illumillion"><i class="fab fa-pinterest-p"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="google-map">
+	<div id="map" data-latitude="28.5355" data-longitude="77.3910" data-marker="images/marker.png" data-marker-name="Illumillion"></div>
+</div>
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')
