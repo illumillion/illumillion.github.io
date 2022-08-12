@@ -1,8 +1,9 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
+ * WEBSITE: https://illumillion.com
+ * TWITTER: https://twitter.com/illumillion_ad
+ * FACEBOOK: https://www.instagram.com/illumillion_agency
+ * Linkedin: https://www.linkedin.com/company/illumillion-marketing/
+ * FACEBOOK: https://www.facebook.com/IllumillionMarketing/
  */
 
 (function ($) {
@@ -103,3 +104,4 @@
 	}
 
 })(jQuery);
+
